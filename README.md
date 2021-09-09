@@ -1,5 +1,6 @@
 # suassuna-nlp
 NLP side project
+In development...
 
 ## Install
 ### Jon Snow mode (Know nothing)
