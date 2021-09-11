@@ -6,6 +6,7 @@ In development...
 ### Jon Snow mode (Know nothing)
 - Mac/Linux:
 ```
+sudo chmod +x install.sh
 ./install.sh
 ```
 - Windows:
@@ -19,6 +20,7 @@ Lorem Ipsum
 ### Jon Snow mode (Know nothing)
 - Mac/Linux:
 ```
+sudo chmod +x run.sh
 ./run.sh
 ```
 
