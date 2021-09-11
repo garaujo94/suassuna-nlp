@@ -1,1 +1,1 @@
-web: streamlit run main.py
+web: sh setup_heroku.sh && streamlit run main.py
