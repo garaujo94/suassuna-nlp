@@ -12,13 +12,13 @@ def wordcloud_page():
     langs = ['en', 'pt-br']
     language = st.radio("Select your Language", langs)
     if language == 'en':
-        nlp = spacy.load("en_core_web_lg")
+        nlp = spacy.load("en_core_web_sm")
     else:
         st.write('Not supported yet :( Using english schema')
-        nlp = spacy.load("en_core_web_lg")
+        nlp = spacy.load("en_core_web_sm")
 
     #Select Input type
-    
+
     #Get text
     text_input = st.text_input("Insert your text here to generate a WordCloud!")
 
