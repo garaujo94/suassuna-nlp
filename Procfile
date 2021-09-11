@@ -1,1 +1,1 @@
-echo PORT $PORT web: streamlit run --server.port $PORT main.py
+web: streamlit run main.py
