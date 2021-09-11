@@ -1,1 +1,1 @@
-echo PORT $PORT web: sh setup_heroku.sh && streamlit run --server.port $PORT main.py
+echo PORT $PORT web: streamlit run --server.port $PORT main.py
