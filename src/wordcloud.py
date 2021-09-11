@@ -17,8 +17,12 @@ def wordcloud_page():
         st.write('Not supported yet :( Using english schema')
         nlp = spacy.load("en_core_web_lg")
 
+    #Select Input type
+    
     #Get text
     text_input = st.text_input("Insert your text here to generate a WordCloud!")
+
+
 
     #Generate WordCloud
     if st.button('Generate WordCloud'):
