@@ -20,9 +20,9 @@ def wordcloud_page():
     #Select Input type
 
     #Get text
-    text_input = st.text_input("Insert your text here to generate a WordCloud!")
+    text_input = st.text_input("Insert your text here!")
 
-
+    st.markdown('---')
 
     #Generate WordCloud
     if st.button('Generate WordCloud'):
